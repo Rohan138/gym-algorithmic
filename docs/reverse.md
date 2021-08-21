@@ -38,10 +38,6 @@ Rewards are issued similar to other Algorithmic Environments.Reward schedule:
 - run out the clock: -1
 - otherwise: 0
 
-### Manual Control
-
-TBA
-
 
 ### Arguments
 

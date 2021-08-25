@@ -1,3 +1,17 @@
 # gym-algorithmic
 
-This is a repo containing the code for the old algorithmic environments that were in Gym. If anyone is a researcher in RL and has a particular interest in maintaining these, please contact me and I will transfer this repo to you. Pull requests will be merged, but this repo is otherwise not maintained. Doc credit: https://github.com/openai/gym/pull/2334
+This repository contains the algorithmic environments previously present in OpenAI Gym prior to Gym version 0.19.0.
+
+## Environments
+
+Copy-v0  
+DuplicatedInput-v0  
+RepeatCopy-v0  
+Reverse-v0  
+ReversedAddition-v0  
+ReversedAddition3-v0  
+
+## Documentation
+[Gym Algorithmic Environments](https://gym.openai.com/envs/#algorithmic)
+
+Documentation credit: https://github.com/openai/gym/pull/2334

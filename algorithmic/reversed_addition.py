@@ -1,4 +1,4 @@
-from gym.envs.algorithmic import algorithmic_env
+from algorithmic import algorithmic_env
 
 
 class ReversedAdditionEnv(algorithmic_env.GridAlgorithmicEnv):

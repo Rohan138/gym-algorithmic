@@ -4,12 +4,12 @@ This repository contains the algorithmic environments previously present in Open
 
 ## Environments
 
-Copy-v0  
-DuplicatedInput-v0  
-RepeatCopy-v0  
-Reverse-v0  
-ReversedAddition-v0  
-ReversedAddition3-v0  
+[Copy-v0](https://gym.openai.com/envs/Copy-v0/)  
+[DuplicatedInput-v0](https://gym.openai.com/envs/DuplicatedInput-v0/)  
+[RepeatCopy-v0](https://gym.openai.com/envs/RepeatCopy-v0/)  
+[Reverse-v0](https://gym.openai.com/envs/Reverse-v0/)  
+[ReversedAddition-v0](https://gym.openai.com/envs/ReversedAddition-v0/)  
+[ReversedAddition3-v0](https://gym.openai.com/envs/ReversedAddition3-v0/)  
 
 ## Documentation
 [Gym Algorithmic Environments](https://gym.openai.com/envs/#algorithmic)

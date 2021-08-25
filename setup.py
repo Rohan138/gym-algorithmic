@@ -3,21 +3,15 @@ from setuptools import setup
 VERSION = "0.0.1"
 
 long_description = ""
-with open("README.md") as fh:
-    header_count = 0
-    for line in fh:
-        if line.startswith("##"):
-            header_count += 1
-        if header_count < 2:
-            long_description += line
-        else:
-            break
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
 
 setup(
     name="gym-algorithmic",
     version=VERSION,
     description="Algorithmic Environments from OpenAI Gym",
     long_description=long_description,
+    long_description_content_type="text/markdown",
     url="https://github.com/Rohan138/gym-algorithmic",
     author="Rohan Potdar",
     author_email="rohanpotdar138@gmail.com",

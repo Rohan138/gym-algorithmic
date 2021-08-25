@@ -1,19 +1,9 @@
+Duplicated Input
 ---
-action-type: "Discrete"
-title: "Duplicated Input"
-actions: Discrete
-agents: "1"
-manual-control: "Yes"
-action-shape: "(3,)"
-action-values: "[(0, 1),(0,1),(0,<a href="#base">base</a>-1)]"
-observation-shape: "(1,)"
-observation-values: "(0,<a href="#base">base</a>)"
-average-total-reward: ""
-import: "from gym.algorithmic import DuplicatedInput-v0"
-agent-labels: "none"
+|Title|Action Type|Action Shape|Action Values|Observation Shape|Observation Values|Average Total Reward|Import|
+| ----------- | -----------| ----------- | -----------| ----------- | -----------| ----------- | -----------|
+|Duplicated Input|Discrete|(3,)|[(0, 1),(0,1),(0,<a href="#base">base</a>-1)]|(1,)|(0,<a href="#base">base</a>)| |from gym.envs.algorithmic import duplicated_input|
 ---
-
-{% include info_box.md %}
 
 Task is to return every nth (<a href="#dup">duplication</a>) character from the input tape. This task was originally used in the paper <a href="http://arxiv.org/abs/1511.07275">Learning Simple Algorithms from Examples</a>.
 
@@ -32,12 +22,11 @@ The observation space size is `(1,)` .
 
 **Rewards:**
 
-Rewards are issued similar to other Algorithmic Environments.Reward schedule:
+Rewards are issued similar to other Algorithmic Environments. Reward schedule:
 - write a correct character: +1
 - write a wrong character: -.5
 - run out the clock: -1
 - otherwise: 0
-
 
 ### Arguments
 

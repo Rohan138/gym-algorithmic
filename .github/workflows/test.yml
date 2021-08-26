@@ -1,0 +1,12 @@
+name: test
+on: [pull_request, push]
+jobs:
+  lint_python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+      - run: pip install black pytest
+      - run: black . --check || true
+      - run: pip install -e .
+      - run: pytest . || true

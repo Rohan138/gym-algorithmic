@@ -2,7 +2,7 @@
 Task is to reverse content over the input tape.
 http://arxiv.org/abs/1511.07275
 """
-from algorithmic import algorithmic_env
+from gym_algorithmic import algorithmic_env
 
 
 class ReverseEnv(algorithmic_env.TapeAlgorithmicEnv):

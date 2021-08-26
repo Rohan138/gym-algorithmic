@@ -1,6 +1,6 @@
 # gym-algorithmic
 
-## Documentation
+## Environments
 
 [Algorithmic Environments](https://github.com/Rohan138/gym-algorithmic/blob/main/docs/algorithmic.md)  
 
@@ -8,10 +8,20 @@
 [DuplicatedInput-v0](https://github.com/Rohan138/gym-algorithmic/blob/main/docs/duplicated_input.md)  
 [RepeatCopy-v0](https://github.com/Rohan138/gym-algorithmic/blob/main/docs/repeat_copy.md)  
 [Reverse-v0](https://github.com/Rohan138/gym-algorithmic/blob/main/docs/reverse.md)  
-[ReversedAddition-v0](https://github.com/Rohan138/gym-algorithmic/blob/main/docs/reverse.md)  
+[ReversedAddition-v0](https://github.com/Rohan138/gym-algorithmic/blob/main/docs/reversed_addition.md)  
 [ReversedAddition3-v0](https://github.com/Rohan138/gym-algorithmic/blob/main/docs/reversed_addition.md)  
 
 Documentation credit: https://github.com/openai/gym/pull/2334
+
+## Usage
+```
+$ pip install gym-algorithmic
+
+import gym
+import gym_algorithmic
+
+gym.make("Copy-v0")
+```
 
 ## Citation
 This repository contains the algorithmic environments previously present in OpenAI Gym prior to Gym version 0.19.0.

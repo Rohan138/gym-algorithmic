@@ -16,7 +16,7 @@ setup(
     author="Rohan Potdar",
     author_email="rohanpotdar138@gmail.com",
     license="",
-    packages=["algorithmic"],
+    packages=["gym_algorithmic"],
     install_requires=[
         "gym>=0.19.0",
     ],

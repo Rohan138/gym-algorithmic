@@ -2,7 +2,7 @@
 Task is to copy content from the input tape to
 the output tape. http://arxiv.org/abs/1511.07275
 """
-from algorithmic import algorithmic_env
+from gym_algorithmic import algorithmic_env
 
 
 class CopyEnv(algorithmic_env.TapeAlgorithmicEnv):

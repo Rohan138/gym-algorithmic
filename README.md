@@ -1,16 +1,14 @@
 # gym-algorithmic
 
-## Environments
-
-[Copy-v0](https://gym.openai.com/envs/Copy-v0/)  
-[DuplicatedInput-v0](https://gym.openai.com/envs/DuplicatedInput-v0/)  
-[RepeatCopy-v0](https://gym.openai.com/envs/RepeatCopy-v0/)  
-[Reverse-v0](https://gym.openai.com/envs/Reverse-v0/)  
-[ReversedAddition-v0](https://gym.openai.com/envs/ReversedAddition-v0/)  
-[ReversedAddition3-v0](https://gym.openai.com/envs/ReversedAddition3-v0/)  
-
 ## Documentation
-[Gym Algorithmic Environments](https://gym.openai.com/envs/#algorithmic)
+
+[Algorithmic Environments](https://github.com/Rohan138/gym-algorithmic/blob/main/docs/algorithmic.md)
+[Copy-v0](https://github.com/Rohan138/gym-algorithmic/blob/main/docs/copy.md)  
+[DuplicatedInput-v0](https://github.com/Rohan138/gym-algorithmic/blob/main/docs/duplicated_input.md)  
+[RepeatCopy-v0](https://github.com/Rohan138/gym-algorithmic/blob/main/docs/repeat_copy.md)  
+[Reverse-v0](https://github.com/Rohan138/gym-algorithmic/blob/main/docs/reverse.md)  
+[ReversedAddition-v0](https://github.com/Rohan138/gym-algorithmic/blob/main/docs/reverse.md)  
+[ReversedAddition3-v0](https://github.com/Rohan138/gym-algorithmic/blob/main/docs/reversed_addition.md)  
 
 Documentation credit: https://github.com/openai/gym/pull/2334
 

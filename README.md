@@ -1,6 +1,8 @@
 # gym-algorithmic
+This repository contains the algorithmic environments previously present in OpenAI Gym prior to Gym version 0.20.0.  
+These environments were introduced in the paper [Learning Simple Algorithms from Examples](https://arxiv.org/abs/1511.07275)
 
-## Environments
+## Documentation
 
 [Algorithmic Environments](https://github.com/Rohan138/gym-algorithmic/blob/main/docs/algorithmic.md)  
 
@@ -24,8 +26,6 @@ gym.make("Copy-v0")
 ```
 
 ## Citation
-This repository contains the algorithmic environments previously present in OpenAI Gym prior to Gym version 0.20.0.
-These environments were introduced in the paper [Learning Simple Algorithms from Examples](https://arxiv.org/abs/1511.07275)
 
 ```
 @inproceedings{Zaremba2016LearningSA,

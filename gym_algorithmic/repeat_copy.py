@@ -2,7 +2,7 @@
 Task is to copy content multiple times from the input tape to
 the output tape. http://arxiv.org/abs/1511.07275
 """
-from gym.envs.algorithmic import algorithmic_env
+from gym_algorithmic import algorithmic_env
 
 
 class RepeatCopyEnv(algorithmic_env.TapeAlgorithmicEnv):

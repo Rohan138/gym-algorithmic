@@ -1,5 +1,5 @@
 # gym-algorithmic
-This repository contains the algorithmic environments previously present in OpenAI Gym prior to Gym version 0.20.0.  
+This repository contains the algorithmic environments previously present in [OpenAI Gym](https://github.com/openai/gym) prior to Gym version 0.20.0.  
 These environments were introduced in the paper [Learning Simple Algorithms from Examples](https://arxiv.org/abs/1511.07275)
 
 ## Documentation
